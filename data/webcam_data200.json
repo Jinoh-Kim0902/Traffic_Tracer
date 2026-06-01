@@ -1,0 +1,320 @@
+{
+    "total_count": 215,
+    "results": [
+        {
+            "geom": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        -123.143496,
+                        49.260852
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "mapid": "TCM179",
+            "name": "Pine St and W 12th Av",
+            "url": "https://trafficcams.vancouver.ca/pine12.htm",
+            "geo_local_area": "Fairview",
+            "geo_point_2d": {
+                "lon": -123.143496,
+                "lat": 49.260852
+            }
+        },
+        {
+            "geom": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        -123.072115,
+                        49.211037
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "mapid": "TCM182",
+            "name": "Argyle St and SE Marine Drive",
+            "url": "https://trafficcams.vancouver.ca/argylemarine.htm",
+            "geo_local_area": "Victoria-Fraserview",
+            "geo_point_2d": {
+                "lon": -123.072115,
+                "lat": 49.211037
+            }
+        },
+        {
+            "geom": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        -123.129196,
+                        49.279086
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "mapid": "TCM183",
+            "name": "Burrard St and Davie St",
+            "url": "https://trafficcams.vancouver.ca/burrardDavie.htm",
+            "geo_local_area": "West End",
+            "geo_point_2d": {
+                "lon": -123.129196,
+                "lat": 49.279086
+            }
+        },
+        {
+            "geom": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        -123.113882,
+                        49.285313
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "mapid": "TCM184",
+            "name": "Granville St and Hasting St",
+            "url": "https://trafficcams.vancouver.ca/granvillehastings.htm",
+            "geo_local_area": "Downtown",
+            "geo_point_2d": {
+                "lon": -123.113882,
+                "lat": 49.285313
+            }
+        },
+        {
+            "geom": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        -123.102199,
+                        49.211097
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "mapid": "TCM185",
+            "name": "Main St and SE Marine Drive",
+            "url": "https://trafficcams.vancouver.ca/mainmarine.htm",
+            "geo_local_area": "Sunset",
+            "geo_point_2d": {
+                "lon": -123.102199,
+                "lat": 49.211097
+            }
+        },
+        {
+            "geom": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        -123.121502,
+                        49.208304
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "mapid": "TCM189",
+            "name": "SW Marine Drive and W 70th Av",
+            "url": "https://trafficcams.vancouver.ca/marine70.htm",
+            "geo_local_area": "Marpole",
+            "geo_point_2d": {
+                "lon": -123.121502,
+                "lat": 49.208304
+            }
+        },
+        {
+            "geom": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        -123.109971,
+                        49.212191
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "mapid": "TCM190",
+            "name": "Manitoba St and SW Marine Drive",
+            "url": "https://trafficcams.vancouver.ca/manitobamarine.htm",
+            "geo_local_area": "Marpole",
+            "geo_point_2d": {
+                "lon": -123.109971,
+                "lat": 49.212191
+            }
+        },
+        {
+            "geom": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        -123.185567,
+                        49.272269
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "mapid": "TCM192",
+            "name": "Alma St and Point Grey Road",
+            "url": "https://trafficcams.vancouver.ca/almaPtGrey.htm",
+            "geo_local_area": "Kitsilano",
+            "geo_point_2d": {
+                "lon": -123.185567,
+                "lat": 49.272269
+            }
+        },
+        {
+            "geom": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        -123.139322,
+                        49.241869
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "mapid": "TCM193",
+            "name": "Granville St and W 33rd Av",
+            "url": "https://trafficcams.vancouver.ca/granville33.htm",
+            "geo_local_area": "Shaughnessy",
+            "geo_point_2d": {
+                "lon": -123.139322,
+                "lat": 49.241869
+            }
+        },
+        {
+            "geom": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        -123.101519,
+                        49.233079
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "mapid": "TCM201",
+            "name": "Main St and E 41st Av",
+            "url": "https://trafficcams.vancouver.ca/main41.htm",
+            "geo_local_area": "Riley Park",
+            "geo_point_2d": {
+                "lon": -123.101519,
+                "lat": 49.233079
+            }
+        },
+        {
+            "geom": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        -123.090157,
+                        49.248643
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "mapid": "TCM202",
+            "name": "Fraser St and E King Edward Av",
+            "url": "https://trafficcams.vancouver.ca/fraserKingEdward.htm",
+            "geo_local_area": "Riley Park",
+            "geo_point_2d": {
+                "lon": -123.090157,
+                "lat": 49.248643
+            }
+        },
+        {
+            "geom": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        -123.129933,
+                        49.275377
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "mapid": "TCM204",
+            "name": "Continental St and Pacific St",
+            "url": "https://trafficcams.vancouver.ca/continentalPacific.htm",
+            "geo_local_area": "Downtown",
+            "geo_point_2d": {
+                "lon": -123.129933,
+                "lat": 49.275377
+            }
+        },
+        {
+            "geom": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        -123.05872,
+                        49.239778
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "mapid": "TCM207",
+            "name": "Nanaimo St and E 33rd Av",
+            "url": "https://trafficcams.vancouver.ca/nanaimo33.htm",
+            "geo_local_area": "Kensington-Cedar Cottage",
+            "geo_point_2d": {
+                "lon": -123.05872,
+                "lat": 49.239778
+            }
+        },
+        {
+            "geom": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        -123.127792,
+                        49.276095
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "mapid": "TCM208",
+            "name": "Granville St and Drake St",
+            "url": "https://trafficcams.vancouver.ca/granvilledrake.htm",
+            "geo_local_area": "Downtown",
+            "geo_point_2d": {
+                "lon": -123.127792,
+                "lat": 49.276095
+            }
+        },
+        {
+            "geom": {
+                "type": "Feature",
+                "geometry": {
+                    "coordinates": [
+                        -123.12859,
+                        49.219204
+                    ],
+                    "type": "Point"
+                },
+                "properties": {}
+            },
+            "mapid": "TCM217",
+            "name": "Oak St and W 57th Av",
+            "url": "https://trafficcams.vancouver.ca/oak57.htm",
+            "geo_local_area": "Oakridge",
+            "geo_point_2d": {
+                "lon": -123.12859,
+                "lat": 49.219204
+            }
+        }
+    ]
+}
