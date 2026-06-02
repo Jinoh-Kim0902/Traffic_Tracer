@@ -63,6 +63,7 @@ def import_csv_to_db():
                 row["analyzed_at"]
             ))
             
+            
     conn.commit()
     conn.close()
     

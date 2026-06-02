@@ -9,10 +9,10 @@ import os
 # 21~60대    → yellow
 # 61대 이상 → red
 
-def countVehicle():
+# def countVehicle():
     
     
-    return
+#     return
 
 def getData():
     csv_path = "data/result/analysisResult.csv"
@@ -32,42 +32,39 @@ def getData():
        GROUP BY camera_id
         """
     )
-    
-    rows = cursor.fetchall()    
-    
-    combo_id_count = {}
-    combo_id_level = {}
-    
-    # 카메라 4개 합산 기준:
-    # 0~20대     → green
-    # 21~60대    → yellow
-    # 61대 이상 → red
+
+    rows = cursor.fetchall()
+
 
     for camera_id, total_vehicle_count in rows:
-        combo_id_count[camera_id] = total_vehicle_count
         if total_vehicle_count <= 20:
-            combo_id_level[camera_id] = "green"
+            congestion_level = "green"
         elif total_vehicle_count <= 60:
-            combo_id_level[camera_id] = "yello"
+            congestion_level = "yellow"
         else:
-            combo_id_level[camera_id] = "red"
+            congestion_level = "red"
             
             
-    cursor.execute(
-    """
-        INSERT INTO camera(
-            camera_id TEXT PRIMARY KEY,
-            mapid TEXT,
-            name TEXT,
-            total_vehicle_count INTEGER,
-            congestion_level TEXT,
-            url TEXT,
-            lon REAL,
-            lat REAL
+        cursor.execute(
+        """
+            UPDATE camera
+            SET total_vehicle_count = ?,
+            congestion_level = ?
+            WHERE camera_id = ?
+            
+        
+        """,(
+            total_vehicle_count,
+            congestion_level,
+            camera_id
+            )
         )
-    
-    """
-    )
+        # print("Updated:", camera_id, total_vehicle_count, congestion_level, "rowcount:", cursor.rowcount)
+
+
+        
+    conn.commit()
+    conn.close()
         
             
     
