@@ -14,7 +14,7 @@ import os
     
 #     return
 
-def getData():
+def getDataAnaly():
     csv_path = "data/result/analysisResult.csv"
     db_path = "data/DB/traffic.db"
     
@@ -70,6 +70,6 @@ def getData():
     
 
 def main():
-    getData()
+    getDataAnaly()
     
 main()
