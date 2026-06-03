@@ -1,0 +1,21 @@
+{
+  "name": "traffic_tracking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jinoh-Kim0902/Traffic_tracer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Jinoh-Kim0902/Traffic_tracer/issues"
+  },
+  "homepage": "https://github.com/Jinoh-Kim0902/Traffic_tracer#readme"
+}
