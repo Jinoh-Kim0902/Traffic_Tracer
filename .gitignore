@@ -1,6 +1,6 @@
-images\
-data\webcam_data0.json
-data\webcam_data100.json
-data\webcam_data200.json
-data\result/
-data\DB/
+images/
+data/webcam_data0.json
+data/webcam_data100.json
+data/webcam_data200.json
+data/result/
+data/DB/
