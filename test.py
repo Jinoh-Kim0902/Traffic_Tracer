@@ -1,39 +1,51 @@
 from typing import List
 
-def maxSumMinProduct(nums: List[int]) -> int:
-    MOD = 10 ** 9 + 7
-    n = len(nums)
-
-    prefix = [0] * (n + 1)
-
-    for i in range(n):
-        prefix[i + 1] = prefix[i] + nums[i]
-
-    stack = []
+def getMaxLen(nums: List[int]) -> int:
+    current = 1
+    ne_len = 0
+    cand = 0
     maxi = 0
+    temp = 0
+    for i in range(0, len(nums)):
 
-    for i in range(n + 1):
-        current = nums[i] if i < n else 0
-
-        while stack and nums[stack[-1]] > current:
-            min_index = stack.pop()
-            min_value = nums[min_index]
-
-            if stack:
-                left = stack[-1] + 1
+        if (nums[i] == 0):
+            cand = 0
+            ne_len = 0
+            current = 1
+            temp = 0
+        
+        elif (nums[i] > 0):
+            current *= nums[i]
+            if (current > 0):
+                cand += 1
+        
             else:
-                left = 0
+                ne_len += 1
+                temp += 1
+                if (maxi < temp):
+                    maxi = temp
+        
+        else:
+            current *= nums[i]
+            if (current > 0):
+                cand = cand + ne_len + 1
+                ne_len = 0
+                temp = 0
 
-            right = i - 1
+            else:
+                
+                ne_len += 1
+        
+        maxi = max(cand, maxi)
+        print("max: ", maxi)
+        print("cand: ", cand)
+        print("ne_len: ", ne_len)
+        print("temp: ", temp)
 
-            subarray_sum = prefix[right + 1] - prefix[left]
-            maxi = max(maxi, subarray_sum * min_value)
+    return maxi
 
-        stack.append(i)
-
-    return maxi % MOD
-
+    
 def main():
-    print(maxSumMinProduct([2,3,3,1,2]))
+    print(getMaxLen([5,-20,-20,-39,-5,0,0,0,36,-32,0,-7,-10,-7,21,20,-12,-34,26,2]))
 
 main()
